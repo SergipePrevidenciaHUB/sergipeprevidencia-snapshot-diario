@@ -84,11 +84,15 @@ def normalize_page_url(url: str) -> str | None:
     lower_path = path.lower()
     if any(lower_path.startswith(p) for p in ("/wp-json", "/wp-admin", "/wp-login", "/xmlrpc.php", "/feed", "/galerias/")):
         return None
+    if any(k in lower_path for k in ("encontro-bem-estar", "encontro-do-bem-estar", "recital-do-sergipe")):
+        return None
     if lower_path.endswith(DOC_EXTENSIONS) or lower_path.endswith(ASSET_EXTENSIONS):
         return None
     if "?p=" in url or "oembed" in url:
         return None
 
+    # Normalizar para lowercase pois URLs no WordPress são case-insensitive e evita duplicar pastas no Linux/Windows
+    path = lower_path
     if not path.endswith("/") and "." not in path.split("/")[-1]:
         path += "/"
 
