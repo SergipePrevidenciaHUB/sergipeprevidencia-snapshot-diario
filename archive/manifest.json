@@ -1,7 +1,14 @@
 {
   "site": "https://sergipeprevidencia.se.gov.br",
-  "updated_at": "28/10/2026 08:17:31",
+  "updated_at": "28/10/2026 14:14:59",
   "snapshots": [
+    {
+      "id": "2026-10-28_14-14",
+      "timestamp": "28/10/2026 14:14:59",
+      "page_count": 0,
+      "total_docs_verified": 0,
+      "pages": []
+    },
     {
       "id": "2026-10-28_08-17",
       "timestamp": "28/10/2026 08:17:31",
