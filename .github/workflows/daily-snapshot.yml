@@ -1,6 +1,12 @@
 name: Daily Snapshot - SergipePrevidencia Wayback Machine
 
 on:
+  # Publica automaticamente no GitHub Pages sempre que a pasta archive/ for atualizada na branch main
+  push:
+    branches:
+      - main
+    paths:
+      - 'archive/**'
   # Executa automaticamente em dois horários de segurança (06:15 e 08:30 de Brasília / 09:15 e 11:30 UTC)
   schedule:
     - cron: '15 9 * * *'
@@ -20,6 +26,7 @@ permissions:
 
 jobs:
   capture-daily-snapshot:
+    if: github.event_name != 'push'
     runs-on: ubuntu-latest
     steps:
       - name: Checkout do repositório (com histórico de snapshots)
@@ -55,19 +62,24 @@ jobs:
             git push
           fi
 
-      - name: Publicar Painel Wayback Machine no GitHub Pages (Opcional)
-        if: success()
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: ./archive
-
   deploy-wayback-pages:
-    needs: capture-daily-snapshot
+    if: always() && (github.event_name == 'push' || needs.capture-daily-snapshot.result == 'success')
+    needs: [capture-daily-snapshot]
     runs-on: ubuntu-latest
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
+      - name: Checkout do repositório atualizado
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Preparar pacote para o GitHub Pages
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./archive
+
       - name: Deploy para GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
