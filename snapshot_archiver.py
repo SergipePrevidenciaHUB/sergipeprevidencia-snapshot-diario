@@ -469,11 +469,10 @@ def categorize_page(url: str) -> str:
 
 
 def build_wayback_viewer_ui(archive_root: Path, manifest: dict):
-    """Gera o arquivo archive/index.html e archive/manifest.json para a interface estilo Wayback Machine."""
+    """Gera o arquivo archive/index.html e archive/manifest.json com interface limpa e direta."""
     manifest_path = archive_root / "manifest.json"
     manifest_path.write_text(json.dumps(manifest, ensure_ascii=False, indent=2), encoding="utf-8")
 
-    # Também embutimos o manifesto diretamente no index.html para que funcione mesmo abrindo via file:// (duplo clique local)
     manifest_json_inline = json.dumps(manifest, ensure_ascii=False)
 
     viewer_html = f"""<!DOCTYPE html>
@@ -481,370 +480,137 @@ def build_wayback_viewer_ui(archive_root: Path, manifest: dict):
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Wayback Machine - SergipePrevidência (Snapshots de Auditoria)</title>
+  <title>Snapshots - SergipePrevidência</title>
   <style>
-    :root {{
-      --bg-dark: #0f172a;
-      --bg-panel: #1e293b;
-      --bg-hover: #334155;
-      --border: #334155;
-      --text-main: #f8fafc;
-      --text-muted: #94a3b8;
-      --accent: #0284c7;
-      --accent-light: #38bdf8;
-      --success: #10b981;
-      --badge-transp: #059669;
-    }}
     * {{ box-sizing: border-box; margin: 0; padding: 0; }}
     body {{
-      font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
-      background: var(--bg-dark);
-      color: var(--text-main);
+      font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+      background: #f8fafc;
+      color: #1e293b;
       height: 100vh;
       display: flex;
       flex-direction: column;
       overflow: hidden;
     }}
 
-    /* TOP WAYBACK HEADER */
-    .wayback-topbar {{
-      background: var(--bg-dark);
-      border-bottom: 1px solid var(--border);
-      padding: 10px 18px;
+    .topbar {{
+      height: 48px;
+      background: #ffffff;
+      border-bottom: 1px solid #e2e8f0;
+      padding: 0 16px;
       display: flex;
       align-items: center;
       justify-content: space-between;
-      gap: 16px;
-      flex-shrink: 0;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.25);
-      z-index: 20;
-    }}
-    .brand {{
-      display: flex;
-      align-items: center;
       gap: 12px;
-    }}
-    .brand-icon {{
-      width: 36px;
-      height: 36px;
-      border-radius: 8px;
-      background: linear-gradient(135deg, #0284c7, #0369a1);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-weight: 800;
-      font-size: 16px;
-      letter-spacing: -0.5px;
-      color: #fff;
-      box-shadow: 0 2px 6px rgba(2,132,199,0.4);
-    }}
-    .brand-title {{
-      font-size: 15px;
-      font-weight: 700;
-      line-height: 1.2;
-    }}
-    .brand-subtitle {{
-      font-size: 11px;
-      color: var(--text-muted);
+      flex-shrink: 0;
     }}
 
-    /* TIMELINE & CONTROLS */
-    .controls-bar {{
-      display: flex;
-      align-items: center;
-      gap: 10px;
-      flex: 1;
-      max-width: 820px;
-      justify-content: center;
+    .title {{
+      font-size: 14px;
+      font-weight: 600;
+      color: #0f172a;
+      white-space: nowrap;
     }}
-    .control-group {{
+
+    .controls {{
       display: flex;
       align-items: center;
-      background: var(--bg-panel);
-      border: 1px solid var(--border);
+      gap: 8px;
+    }}
+
+    .field-group {{
+      display: flex;
+      align-items: center;
+      background: #f8fafc;
+      border: 1px solid #cbd5e1;
       border-radius: 6px;
-      padding: 4px 8px;
+      padding: 0 10px;
+      height: 32px;
       gap: 6px;
     }}
-    .control-label {{
-      font-size: 11px;
-      text-transform: uppercase;
-      letter-spacing: 0.5px;
-      color: var(--text-muted);
-      font-weight: 600;
-    }}
-    select, input[type="text"] {{
-      background: transparent;
-      color: var(--text-main);
-      border: none;
-      font-size: 13px;
-      outline: none;
-      padding: 4px;
-    }}
-    select option {{
-      background: var(--bg-panel);
-      color: var(--text-main);
-    }}
-    .nav-btn {{
-      background: var(--bg-panel);
-      color: var(--text-main);
-      border: 1px solid var(--border);
-      border-radius: 6px;
-      padding: 6px 10px;
+
+    .field-label {{
       font-size: 12px;
+      color: #64748b;
+      font-weight: 500;
+      white-space: nowrap;
+    }}
+
+    select {{
+      background: transparent;
+      border: none;
+      color: #0f172a;
+      font-size: 13px;
+      font-weight: 500;
+      outline: none;
       cursor: pointer;
-      transition: all 0.15s;
-      display: flex;
+      height: 100%;
+    }}
+
+    #page-select {{
+      max-width: 340px;
+    }}
+
+    .btn {{
+      height: 32px;
+      padding: 0 10px;
+      background: #ffffff;
+      border: 1px solid #cbd5e1;
+      border-radius: 6px;
+      color: #334155;
+      font-size: 12px;
+      font-weight: 500;
+      cursor: pointer;
+      display: inline-flex;
       align-items: center;
-      gap: 5px;
+      gap: 4px;
       text-decoration: none;
+      white-space: nowrap;
     }}
-    .nav-btn:hover:not(:disabled) {{
-      background: var(--bg-hover);
-      border-color: var(--accent-light);
+    .btn:hover:not(:disabled) {{
+      background: #f1f5f9;
     }}
-    .nav-btn:disabled {{
+    .btn:disabled {{
       opacity: 0.4;
       cursor: not-allowed;
     }}
-    .nav-btn.primary {{
-      background: var(--accent);
-      border-color: var(--accent);
-      font-weight: 600;
-    }}
-    .nav-btn.primary:hover {{
-      background: #0369a1;
-    }}
 
-    /* MAIN WORKSPACE */
-    .workspace {{
-      display: flex;
-      flex: 1;
-      overflow: hidden;
-    }}
-
-    /* LEFT SIDEBAR: DIRECTORY OF PAGES */
-    .sidebar {{
-      width: 340px;
-      background: var(--bg-panel);
-      border-right: 1px solid var(--border);
-      display: flex;
-      flex-direction: column;
-      flex-shrink: 0;
-      transition: margin-left 0.2s ease;
-    }}
-    .sidebar.collapsed {{
-      margin-left: -340px;
-    }}
-    .sidebar-header {{
-      padding: 12px;
-      border-bottom: 1px solid var(--border);
-      display: flex;
-      flex-direction: column;
-      gap: 8px;
-    }}
-    .search-box {{
-      display: flex;
-      align-items: center;
-      background: var(--bg-dark);
-      border: 1px solid var(--border);
-      border-radius: 6px;
-      padding: 6px 10px;
-    }}
-    .search-box input {{
-      width: 100%;
-    }}
-    .filter-pills {{
-      display: flex;
-      gap: 6px;
-      flex-wrap: wrap;
-    }}
-    .pill {{
-      font-size: 11px;
-      padding: 3px 8px;
-      border-radius: 999px;
-      background: var(--bg-dark);
-      color: var(--text-muted);
-      border: 1px solid var(--border);
-      cursor: pointer;
-      user-select: none;
-    }}
-    .pill.active {{
-      background: var(--accent);
-      color: #fff;
-      border-color: var(--accent);
-      font-weight: 600;
-    }}
-    .page-list {{
-      flex: 1;
-      overflow-y: auto;
-      padding: 8px;
-      display: flex;
-      flex-direction: column;
-      gap: 4px;
-    }}
-    .page-item {{
-      padding: 8px 10px;
-      border-radius: 6px;
-      cursor: pointer;
-      border: 1px solid transparent;
-      display: flex;
-      flex-direction: column;
-      gap: 3px;
-      transition: background 0.12s;
-    }}
-    .page-item:hover {{
-      background: rgba(255,255,255,0.05);
-    }}
-    .page-item.active {{
-      background: rgba(2, 132, 199, 0.18);
-      border-color: var(--accent);
-    }}
-    .page-item-title {{
-      font-size: 13px;
-      font-weight: 600;
-      color: var(--text-main);
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 6px;
-    }}
-    .page-item-path {{
-      font-size: 11px;
-      color: var(--text-muted);
-      word-break: break-all;
-      font-family: Consolas, monospace;
-    }}
-    .badge {{
-      font-size: 10px;
-      padding: 1px 6px;
-      border-radius: 4px;
-      background: var(--bg-dark);
-      color: var(--accent-light);
-      white-space: nowrap;
-      font-weight: 600;
-    }}
-    .badge.transp {{
-      background: rgba(16, 185, 129, 0.15);
-      color: #34d399;
-    }}
-
-    /* IFRAME VIEWPORT */
-    .viewport-container {{
-      flex: 1;
-      display: flex;
-      flex-direction: column;
-      background: #fff;
-      position: relative;
-    }}
-    .address-bar {{
-      background: #f1f5f9;
-      border-bottom: 1px solid #cbd5e1;
-      padding: 6px 14px;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 12px;
-      color: #334155;
-      font-size: 12px;
-    }}
-    .address-url {{
-      font-family: Consolas, monospace;
-      background: #fff;
-      border: 1px solid #cbd5e1;
-      border-radius: 4px;
-      padding: 4px 10px;
-      flex: 1;
-      color: #0f172a;
-      overflow: hidden;
-      text-overflow: ellipsis;
-      white-space: nowrap;
-    }}
-    .audit-meta {{
-      display: flex;
-      align-items: center;
-      gap: 12px;
-      font-size: 12px;
-      white-space: nowrap;
-    }}
-    .status-dot {{
-      width: 8px;
-      height: 8px;
-      border-radius: 50%;
-      background: var(--success);
-      display: inline-block;
-      margin-right: 4px;
-    }}
     iframe#snapshot-frame {{
       flex: 1;
       width: 100%;
       border: none;
-      background: #fff;
+      background: #ffffff;
+    }}
+
+    @media (max-width: 800px) {{
+      .title {{ display: none; }}
+      #page-select {{ max-width: 160px; }}
     }}
   </style>
 </head>
 <body>
 
-  <header class="wayback-topbar">
-    <div class="brand">
-      <button class="nav-btn" id="toggle-sidebar-btn" title="Mostrar/Ocultar Lista de Páginas">☰ Páginas</button>
-      <div class="brand-icon">SP</div>
-      <div>
-        <div class="brand-title">SergipePrevidência • Wayback Machine</div>
-        <div class="brand-subtitle">Arquivo Diário de Conformidade & Portal da Transparência</div>
-      </div>
-    </div>
+  <header class="topbar">
+    <span class="title">SergipePrevidência • Snapshots</span>
 
-    <div class="controls-bar">
-      <button class="nav-btn" id="prev-snap-btn" title="Snapshot Anterior">◀ Anterior</button>
-      <div class="control-group">
-        <span class="control-label">📅 Data do Snapshot:</span>
+    <div class="controls">
+      <button class="btn" id="prev-snap-btn" title="Snapshot anterior">◀</button>
+      <div class="field-group">
+        <span class="field-label">Data:</span>
         <select id="snapshot-select"></select>
       </div>
-      <button class="nav-btn" id="next-snap-btn" title="Próximo Snapshot">Próximo ▶</button>
+      <button class="btn" id="next-snap-btn" title="Próximo snapshot">▶</button>
+
+      <div class="field-group">
+        <span class="field-label">Página:</span>
+        <select id="page-select"></select>
+      </div>
     </div>
 
-    <div style="display:flex; align-items:center; gap:8px;">
-      <a id="open-raw-btn" href="#" target="_blank" class="nav-btn" title="Abrir página arquivada em nova guia">↗ Nova Guia</a>
-      <a id="open-live-btn" href="https://sergipeprevidencia.se.gov.br/" target="_blank" class="nav-btn primary" title="Abrir URL ao vivo no site oficial">🌐 Site Ao Vivo</a>
-    </div>
+    <a id="open-live-btn" href="https://sergipeprevidencia.se.gov.br/" target="_blank" class="btn">Site Oficial ↗</a>
   </header>
 
-  <div class="workspace">
-    <aside class="sidebar" id="sidebar">
-      <div class="sidebar-header">
-        <div style="display:flex; justify-content:space-between; align-items:center; font-size:12px; color:var(--text-muted);">
-          <span>Páginas Arquivadas no Dia</span>
-          <strong id="page-count-label" style="color:var(--text-main);">0 páginas</strong>
-        </div>
-        <div class="search-box">
-          <input type="text" id="page-search" placeholder="Filtrar por nome ou URL (ex: licitacoes)..." />
-        </div>
-        <div class="filter-pills" id="category-pills">
-          <span class="pill active" data-cat="ALL">Todas</span>
-          <span class="pill" data-cat="Portal da Transparência">Transparência</span>
-          <span class="pill" data-cat="Pró-Gestão">Pró-Gestão</span>
-          <span class="pill" data-cat="Institucional & Legislação">Institucional</span>
-        </div>
-      </div>
-      <div class="page-list" id="page-list"></div>
-    </aside>
-
-    <main class="viewport-container">
-      <div class="address-bar">
-        <div class="audit-meta">
-          <span><span class="status-dot"></span><strong id="meta-timestamp">--</strong></span>
-          <span style="color:#94a3b8;">|</span>
-          <span id="meta-docs">0 documentos/PDFs verificados na página</span>
-        </div>
-        <div class="address-url" id="address-url">https://sergipeprevidencia.se.gov.br/</div>
-        <div class="audit-meta">
-          <span style="font-family:monospace; color:#64748b;" id="meta-sha">SHA256: --</span>
-        </div>
-      </div>
-      <iframe id="snapshot-frame" src="about:blank"></iframe>
-    </main>
-  </div>
+  <iframe id="snapshot-frame" src="about:blank"></iframe>
 
   <script>
     const INLINE_MANIFEST = {manifest_json_inline};
@@ -852,27 +618,13 @@ def build_wayback_viewer_ui(archive_root: Path, manifest: dict):
     let manifestData = INLINE_MANIFEST;
     let currentSnapshotId = null;
     let currentPageRel = "index.html";
-    let currentCategory = "ALL";
-    let searchQuery = "";
 
     const snapSelect = document.getElementById("snapshot-select");
+    const pageSelect = document.getElementById("page-select");
     const prevBtn = document.getElementById("prev-snap-btn");
     const nextBtn = document.getElementById("next-snap-btn");
-    const pageListEl = document.getElementById("page-list");
-    const pageSearchEl = document.getElementById("page-search");
-    const pageCountLabel = document.getElementById("page-count-label");
     const frameEl = document.getElementById("snapshot-frame");
-    const addressUrlEl = document.getElementById("address-url");
-    const metaTimestampEl = document.getElementById("meta-timestamp");
-    const metaDocsEl = document.getElementById("meta-docs");
-    const metaShaEl = document.getElementById("meta-sha");
-    const openRawBtn = document.getElementById("open-raw-btn");
     const openLiveBtn = document.getElementById("open-live-btn");
-    const sidebarEl = document.getElementById("sidebar");
-
-    document.getElementById("toggle-sidebar-btn").addEventListener("click", () => {{
-      sidebarEl.classList.toggle("collapsed");
-    }});
 
     async function init() {{
       try {{
@@ -880,15 +632,10 @@ def build_wayback_viewer_ui(archive_root: Path, manifest: dict):
         if (resp.ok) {{
           manifestData = await resp.json();
         }}
-      }} catch (e) {{
-        // Usa INLINE_MANIFEST quando aberto via file://
-      }}
+      }} catch (e) {{}}
 
       const snaps = manifestData.snapshots || [];
-      if (!snaps.length) {{
-        pageListEl.innerHTML = '<div style="padding:16px; color:#94a3b8;">Nenhum snapshot encontrado.</div>';
-        return;
-      }}
+      if (!snaps.length) return;
 
       const params = new URLSearchParams(window.location.search);
       const requestedSnap = params.get("snapshot");
@@ -898,14 +645,14 @@ def build_wayback_viewer_ui(archive_root: Path, manifest: dict):
       snaps.forEach((s) => {{
         const opt = document.createElement("option");
         opt.value = s.id;
-        opt.textContent = `${{s.id}} (${{s.page_count}} págs • ${{s.timestamp.split(" ")[1] || ""}})`;
+        opt.textContent = s.timestamp || s.id;
         snapSelect.appendChild(opt);
       }});
 
       if (requestedSnap && snaps.some(s => s.id === requestedSnap)) {{
         currentSnapshotId = requestedSnap;
       }} else {{
-        currentSnapshotId = snaps[0].id; // Mais recente primeiro
+        currentSnapshotId = snaps[0].id;
       }}
 
       if (requestedPage) {{
@@ -923,50 +670,27 @@ def build_wayback_viewer_ui(archive_root: Path, manifest: dict):
     function renderSnapshot() {{
       const snaps = manifestData.snapshots || [];
       const idx = snaps.findIndex(s => s.id === currentSnapshotId);
-      // Como snaps está em ordem decrescente (mais recente no índice 0):
       prevBtn.disabled = idx >= snaps.length - 1;
       nextBtn.disabled = idx <= 0;
 
       const snap = snaps[idx];
       if (!snap) return;
 
-      renderSidebarList(snap);
+      populatePageSelect(snap);
       loadPageInFrame(snap, currentPageRel);
     }}
 
-    function renderSidebarList(snap) {{
+    function populatePageSelect(snap) {{
       const pages = snap.pages || [];
-      const filtered = pages.filter(p => {{
-        if (currentCategory !== "ALL" && p.category !== currentCategory) return false;
-        if (searchQuery) {{
-          const q = searchQuery.toLowerCase();
-          return (p.title || "").toLowerCase().includes(q) || (p.url || "").toLowerCase().includes(q);
-        }}
-        return true;
-      }});
-
-      pageCountLabel.textContent = `${{filtered.length}} de ${{pages.length}} págs`;
-      pageListEl.innerHTML = "";
-
-      filtered.forEach(p => {{
-        const div = document.createElement("div");
-        div.className = "page-item" + (p.rel_path === currentPageRel ? " active" : "");
-        const isTransp = p.category === "Portal da Transparência";
+      pageSelect.innerHTML = "";
+      pages.forEach(p => {{
+        const opt = document.createElement("option");
+        opt.value = p.rel_path;
         const shortPath = p.url.replace("https://sergipeprevidencia.se.gov.br", "") || "/";
-        div.innerHTML = `
-          <div class="page-item-title">
-            <span style="overflow:hidden; text-overflow:ellipsis; white-space:nowrap;">${{p.title}}</span>
-            <span class="badge ${{isTransp ? 'transp' : ''}}">${{isTransp ? 'Transparência' : p.category.split(' ')[0]}}</span>
-          </div>
-          <div class="page-item-path">${{shortPath}}</div>
-        `;
-        div.addEventListener("click", () => {{
-          currentPageRel = p.rel_path;
-          renderSidebarList(snap);
-          loadPageInFrame(snap, currentPageRel);
-        }});
-        pageListEl.appendChild(div);
+        opt.textContent = `${{p.title}} (${{shortPath}})`;
+        pageSelect.appendChild(opt);
       }});
+      pageSelect.value = currentPageRel;
     }}
 
     function loadPageInFrame(snap, relPath) {{
@@ -977,13 +701,8 @@ def build_wayback_viewer_ui(archive_root: Path, manifest: dict):
       }}
       if (!pageObj) return;
 
-      const frameSrc = `snapshots/${{snap.id}}/${{pageObj.rel_path}}`;
-      frameEl.src = frameSrc;
-      addressUrlEl.textContent = pageObj.url;
-      metaTimestampEl.textContent = `Capturado em ${{snap.timestamp}}`;
-      metaDocsEl.textContent = `${{pageObj.doc_count || 0}} PDFs/documentos na página`;
-      metaShaEl.textContent = `SHA256: ${{(pageObj.sha256 || "").slice(0, 12)}}...`;
-      openRawBtn.href = frameSrc;
+      pageSelect.value = currentPageRel;
+      frameEl.src = `snapshots/${{snap.id}}/${{pageObj.rel_path}}`;
       openLiveBtn.href = pageObj.url;
 
       const urlParams = new URLSearchParams(window.location.search);
@@ -995,6 +714,12 @@ def build_wayback_viewer_ui(archive_root: Path, manifest: dict):
     snapSelect.addEventListener("change", (e) => {{
       currentSnapshotId = e.target.value;
       renderSnapshot();
+    }});
+
+    pageSelect.addEventListener("change", (e) => {{
+      currentPageRel = e.target.value;
+      const snap = getCurrentSnapshotObj();
+      if (snap) loadPageInFrame(snap, currentPageRel);
     }});
 
     prevBtn.addEventListener("click", () => {{
@@ -1017,23 +742,6 @@ def build_wayback_viewer_ui(archive_root: Path, manifest: dict):
       }}
     }});
 
-    pageSearchEl.addEventListener("input", (e) => {{
-      searchQuery = e.target.value.trim();
-      const snap = getCurrentSnapshotObj();
-      if (snap) renderSidebarList(snap);
-    }});
-
-    document.querySelectorAll("#category-pills .pill").forEach(pill => {{
-      pill.addEventListener("click", () => {{
-        document.querySelectorAll("#category-pills .pill").forEach(el => el.classList.remove("active"));
-        pill.classList.add("active");
-        currentCategory = pill.getAttribute("data-cat");
-        const snap = getCurrentSnapshotObj();
-        if (snap) renderSidebarList(snap);
-      }});
-    }});
-
-    // Sincronizar barra de endereço quando o usuário clica em links dentro do iframe
     frameEl.addEventListener("load", () => {{
       try {{
         const loc = frameEl.contentWindow.location.pathname;
@@ -1044,17 +752,11 @@ def build_wayback_viewer_ui(archive_root: Path, manifest: dict):
           if (!rel || rel.endsWith("/")) rel += "index.html";
           if (rel !== currentPageRel) {{
             currentPageRel = rel;
+            pageSelect.value = currentPageRel;
             const snap = getCurrentSnapshotObj();
             if (snap) {{
-              renderSidebarList(snap);
               const pageObj = (snap.pages || []).find(p => p.rel_path === currentPageRel);
-              if (pageObj) {{
-                addressUrlEl.textContent = pageObj.url;
-                metaDocsEl.textContent = `${{pageObj.doc_count || 0}} PDFs/documentos na página`;
-                metaShaEl.textContent = `SHA256: ${{(pageObj.sha256 || "").slice(0, 12)}}...`;
-                openRawBtn.href = `snapshots/${{snap.id}}/${{pageObj.rel_path}}`;
-                openLiveBtn.href = pageObj.url;
-              }}
+              if (pageObj) openLiveBtn.href = pageObj.url;
             }}
           }}
         }}
