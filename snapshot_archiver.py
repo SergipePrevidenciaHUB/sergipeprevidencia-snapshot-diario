@@ -1075,7 +1075,7 @@ def create_snapshot(output_dir: str, snapshot_date: str | None = None, limit: in
     snapshots_dir.mkdir(parents=True, exist_ok=True)
 
     now = datetime.datetime.now()
-    snap_id = snapshot_date or now.strftime("%Y-%m-%d")
+    snap_id = snapshot_date or now.strftime("%Y-%m-%d_%H-%M")
     timestamp_str = now.strftime("%d/%m/%Y %H:%M:%S")
 
     current_snap_dir = snapshots_dir / snap_id

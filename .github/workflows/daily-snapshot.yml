@@ -1,14 +1,15 @@
 name: Daily Snapshot - SergipePrevidencia Wayback Machine
 
 on:
-  # Executa automaticamente todos os dias às 06:00 da manhã (horário de Brasília / 09:00 UTC)
+  # Executa automaticamente em dois horários de segurança (06:15 e 08:30 de Brasília / 09:15 e 11:30 UTC)
   schedule:
-    - cron: '0 9 * * *'
+    - cron: '15 9 * * *'
+    - cron: '30 11 * * *'
   # Permite disparar um snapshot manualmente a qualquer momento pelo botão "Run workflow" no GitHub
   workflow_dispatch:
     inputs:
       custom_date:
-        description: 'Rótulo da data/versão (opcional, padrão YYYY-MM-DD)'
+        description: 'Rótulo da data/versão (opcional, padrão YYYY-MM-DD_HH-MM)'
         required: false
         default: ''
 
