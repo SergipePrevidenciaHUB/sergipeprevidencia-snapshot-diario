@@ -805,6 +805,11 @@ def create_snapshot(output_dir: str, snapshot_date: str | None = None, limit: in
                 raw_pages[u] = data
 
     print(f"      -> {len(raw_pages)}/{len(pages)} páginas responderam com sucesso (HTTP 200).")
+    if len(raw_pages) == 0:
+        print("\n[ERRO] Nenhuma página pôde ser baixada (provável bloqueio geográfico de IP fora do Brasil pelo firewall se.gov.br). Abortando para não salvar snapshot vazio.")
+        if current_snap_dir.exists() and not any(current_snap_dir.iterdir()):
+            current_snap_dir.rmdir()
+        sys.exit(1)
 
     # Processar cada página, reescrever links e registrar assets
     page_records = []

@@ -1,70 +1,21 @@
-name: Daily Snapshot - SergipePrevidencia Wayback Machine
+name: Publish SergipePrevidencia Wayback Pages
 
 on:
-  # Publica automaticamente no GitHub Pages sempre que a pasta archive/ for atualizada na branch main
+  # Publica automaticamente no GitHub Pages sempre que um snapshot for enviado para a branch main
   push:
     branches:
       - main
     paths:
       - 'archive/**'
-  # Executa automaticamente em dois horários de segurança (06:15 e 08:30 de Brasília / 09:15 e 11:30 UTC)
-  schedule:
-    - cron: '15 9 * * *'
-    - cron: '30 11 * * *'
-  # Permite disparar um snapshot manualmente a qualquer momento pelo botão "Run workflow" no GitHub
   workflow_dispatch:
-    inputs:
-      custom_date:
-        description: 'Rótulo da data/versão (opcional, padrão YYYY-MM-DD_HH-MM)'
-        required: false
-        default: ''
 
 permissions:
-  contents: write
+  contents: read
   pages: write
   id-token: write
 
 jobs:
-  capture-daily-snapshot:
-    if: github.event_name != 'push'
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout do repositório (com histórico de snapshots)
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 1
-
-      - name: Configurar Python 3.12
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.12'
-
-      - name: Executar Captura do Site & Portal da Transparência
-        env:
-          TZ: 'America/Maceio'
-        run: |
-          if [ -n "${{ github.event.inputs.custom_date }}" ]; then
-            python snapshot_archiver.py --output archive --date "${{ github.event.inputs.custom_date }}" --workers 12
-          else
-            python snapshot_archiver.py --output archive --workers 12
-          fi
-
-      - name: Salvar (Commit & Push) novo Snapshot no Repositório
-        run: |
-          git config --local user.email "actions@github.com"
-          git config --local user.name "SergipePrevidencia Wayback Bot"
-          git add archive/
-          if git diff --staged --quiet; then
-            echo "Nenhuma alteração detectada."
-          else
-            SNAP_DATE=$(TZ='America/Maceio' date +'%Y-%m-%d %H:%M')
-            git commit -m "chore(snapshot): backup diário automático [$SNAP_DATE]"
-            git push
-          fi
-
   deploy-wayback-pages:
-    if: always() && (github.event_name == 'push' || needs.capture-daily-snapshot.result == 'success')
-    needs: [capture-daily-snapshot]
     runs-on: ubuntu-latest
     environment:
       name: github-pages
