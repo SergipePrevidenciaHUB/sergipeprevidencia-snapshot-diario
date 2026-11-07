@@ -1,0 +1,1504 @@
+{
+  "id": "2026-11-07_08-30",
+  "timestamp": "07/11/2026 08:30:05",
+  "page_count": 187,
+  "total_docs_verified": 6149,
+  "pages": [
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/",
+      "rel_path": "index.html",
+      "title": "Home - SergipePrevidência",
+      "category": "Início",
+      "doc_count": 5,
+      "sha256": "0547b45187d13e723c513ff422465adc1c6249c261d9ab320a1fdda4530787d6"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/portal-transparencia/",
+      "rel_path": "portal-transparencia/index.html",
+      "title": "Portal transparência - SergipePrevidência",
+      "category": "Portal da Transparência",
+      "doc_count": 5,
+      "sha256": "7fd0d0dee5b310f8804f094071002712fa3dcc68cf1dc6198164aca9b25ba813"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/portal-transparencia/contratos/",
+      "rel_path": "portal-transparencia/contratos/index.html",
+      "title": "Contratos - SergipePrevidência",
+      "category": "Portal da Transparência",
+      "doc_count": 222,
+      "sha256": "374418376a7bf8d18aa0acd9475733e236556201632e70751d9606535027b35c"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/portal-transparencia/contratos/gestoresfiscais/",
+      "rel_path": "portal-transparencia/contratos/gestoresfiscais/index.html",
+      "title": "Fiscais de Contratos - SergipePrevidência",
+      "category": "Portal da Transparência",
+      "doc_count": 5,
+      "sha256": "7e50b58af88d42e90a022fbf06fa7ca212efb5ade144541a82de516fe732abc3"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/portal-transparencia/contratos/ordemcronologica/",
+      "rel_path": "portal-transparencia/contratos/ordemcronologica/index.html",
+      "title": "Ordem Cronológica - SergipePrevidência",
+      "category": "Portal da Transparência",
+      "doc_count": 5,
+      "sha256": "e4bf4981d28e8f4744ca8f4ac02c5976766976f34651dfdcda9966a8b2357b13"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/portal-transparencia/convenios/",
+      "rel_path": "portal-transparencia/convenios/index.html",
+      "title": "Convênios e Transferências - SergipePrevidência",
+      "category": "Portal da Transparência",
+      "doc_count": 5,
+      "sha256": "c4d7048a967b2c7675389eb31b17cb882cb7f500baf025bcd344a0973f431687"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/portal-transparencia/convenios/realizadas/",
+      "rel_path": "portal-transparencia/convenios/realizadas/index.html",
+      "title": "Transferências Realizadas - SergipePrevidência",
+      "category": "Portal da Transparência",
+      "doc_count": 5,
+      "sha256": "996ece19ac7ccac1b321c1625f82dc860d6965f7b639b09a63d905e0106e5264"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/portal-transparencia/convenios/recebidas/",
+      "rel_path": "portal-transparencia/convenios/recebidas/index.html",
+      "title": "Transferências Recebidas - SergipePrevidência",
+      "category": "Portal da Transparência",
+      "doc_count": 5,
+      "sha256": "b851cf7c692111fc79e6d29a6f99a022569b46f3d58563b08fc289c68488ea89"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/portal-transparencia/convenios/semtransferencia/",
+      "rel_path": "portal-transparencia/convenios/semtransferencia/index.html",
+      "title": "Acordos Sem Transferência - SergipePrevidência",
+      "category": "Portal da Transparência",
+      "doc_count": 13,
+      "sha256": "10a6cbded9abf2d96872108382999d3c02a0166ce6956e5fd3f1eab6f20a0a5d"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/portal-transparencia/despesas/",
+      "rel_path": "portal-transparencia/despesas/index.html",
+      "title": "Despesas - SergipePrevidência",
+      "category": "Portal da Transparência",
+      "doc_count": 5,
+      "sha256": "44faa7d983d0d937b699cd83bb8a251b9653a5d2e268ef6f5802864eed1b7e3d"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/portal-transparencia/diarias/",
+      "rel_path": "portal-transparencia/diarias/index.html",
+      "title": "Diarias - SergipePrevidência",
+      "category": "Portal da Transparência",
+      "doc_count": 5,
+      "sha256": "9c56fe8f5823faa59b04a20c97843473f9f6ec12691c57a8eb3539c613811b47"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/portal-transparencia/diarias/relacao/",
+      "rel_path": "portal-transparencia/diarias/relacao/index.html",
+      "title": "Relação de Diárias - SergipePrevidência",
+      "category": "Portal da Transparência",
+      "doc_count": 6,
+      "sha256": "a5f1679bf6ff2c18e65d63afbb7b1a8be285c818b85cc8748ab0cab237040acb"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/portal-transparencia/diarias/tabelavalores/",
+      "rel_path": "portal-transparencia/diarias/tabelavalores/index.html",
+      "title": "Valores das Diárias - SergipePrevidência",
+      "category": "Portal da Transparência",
+      "doc_count": 6,
+      "sha256": "b71e8a9ef9754aab5fc64ad92ab1d6af049c840e7b2310dfff35b8552945c3da"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/portal-transparencia/institucional/",
+      "rel_path": "portal-transparencia/institucional/index.html",
+      "title": "Institucional - SergipePrevidência",
+      "category": "Portal da Transparência",
+      "doc_count": 5,
+      "sha256": "08905b025bcc2ba2c007e96f3f0ad19e6fcecdb55142c2f6ac5f991b4fd6371d"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/portal-transparencia/institucional/atosnormativos/",
+      "rel_path": "portal-transparencia/institucional/atosnormativos/index.html",
+      "title": "Atos Normativos - SergipePrevidência",
+      "category": "Portal da Transparência",
+      "doc_count": 518,
+      "sha256": "95f32b4b37eeb9d3787cc912c6b1e3430823938a00e5d4d0f59a19f89aa8a440"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/portal-transparencia/institucional/informacoes/",
+      "rel_path": "portal-transparencia/institucional/informacoes/index.html",
+      "title": "Informações Institucionais - SergipePrevidência",
+      "category": "Portal da Transparência",
+      "doc_count": 6,
+      "sha256": "fa3ccb725f8fb046c6fffcb05f1918f5685bf21c535000fee1fa9101ac48a4fb"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/portal-transparencia/institucional/legislacaointerna/",
+      "rel_path": "portal-transparencia/institucional/legislacaointerna/index.html",
+      "title": "Legislação Interna - SergipePrevidência",
+      "category": "Portal da Transparência",
+      "doc_count": 39,
+      "sha256": "9fc0c4963daed33843c74bcb41cb34587c8124ce7578a7d681265aa585008708"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/portal-transparencia/lgpdegovernodigital/",
+      "rel_path": "portal-transparencia/lgpdegovernodigital/index.html",
+      "title": "LGPD e Governo Digital - SergipePrevidência",
+      "category": "Portal da Transparência",
+      "doc_count": 26,
+      "sha256": "399ef7ceee979ef5863038a035538f21ee20ac9fd756240ff40322e55d9064c9"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/portal-transparencia/lgpdegovernodigital/dadosabertos/",
+      "rel_path": "portal-transparencia/lgpdegovernodigital/dadosabertos/index.html",
+      "title": "Dados Abertos - SergipePrevidência",
+      "category": "Portal da Transparência",
+      "doc_count": 11,
+      "sha256": "bea36161c561813d4e1ad70ff02119daf9e6f2de0f316da9f9f0723df7492698"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/portal-transparencia/lgpdegovernodigital/politicaprivacidade/",
+      "rel_path": "portal-transparencia/lgpdegovernodigital/politicaprivacidade/index.html",
+      "title": "Termo de Uso e Política de Privacidade - SergipePrevidência",
+      "category": "Portal da Transparência",
+      "doc_count": 5,
+      "sha256": "c9f60d16e7d909cefea2982a14d4b06448a6804c2c40d763005b1fd882acc3d5"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/portal-transparencia/lgpdegovernodigital/servicos/",
+      "rel_path": "portal-transparencia/lgpdegovernodigital/servicos/index.html",
+      "title": "Serviços Públicos Digitais - SergipePrevidência",
+      "category": "Portal da Transparência",
+      "doc_count": 5,
+      "sha256": "ca34c2bc60b53453d3e2f3dcd1d44381f7746407a2329962626d80c6f9bcf025"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/portal-transparencia/licitacoes/",
+      "rel_path": "portal-transparencia/licitacoes/index.html",
+      "title": "Licitações - SergipePrevidência",
+      "category": "Portal da Transparência",
+      "doc_count": 116,
+      "sha256": "dac9531b263208dffc9de8d8bb139e8b06ccc2e0b194547a6fc07cac5d392e87"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/portal-transparencia/licitacoes/planoanualcontratacoes/",
+      "rel_path": "portal-transparencia/licitacoes/planoanualcontratacoes/index.html",
+      "title": "Plano de Contratações Anual - SergipePrevidência",
+      "category": "Portal da Transparência",
+      "doc_count": 7,
+      "sha256": "de4b40480258e2fe2713893540bcae1a05c94bb9cfa9cc52bdb72c10b3e4f67d"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/portal-transparencia/licitacoes/sancoes/",
+      "rel_path": "portal-transparencia/licitacoes/sancoes/index.html",
+      "title": "Sanções - SergipePrevidência",
+      "category": "Portal da Transparência",
+      "doc_count": 5,
+      "sha256": "9efdefe3ba9918897df639afec9f5abf8d1b85367c7c7a029b02966377d4d400"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/portal-transparencia/mapa-do-site/",
+      "rel_path": "portal-transparencia/mapa-do-site/index.html",
+      "title": "Mapa do Site - SergipePrevidência",
+      "category": "Portal da Transparência",
+      "doc_count": 5,
+      "sha256": "bada546774c28822dfafe95c9185ff5a5b77844965cb1d6322fd63fe3981b968"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/portal-transparencia/ouvidoria/",
+      "rel_path": "portal-transparencia/ouvidoria/index.html",
+      "title": "Ouvidoria - SergipePrevidência",
+      "category": "Portal da Transparência",
+      "doc_count": 6,
+      "sha256": "3c222d9baf00288ddbf1a59c985a76d3999a23ddf93adf7c7f87c0caf5cf11d0"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/portal-transparencia/planejamentoprestacaocontas/",
+      "rel_path": "portal-transparencia/planejamentoprestacaocontas/index.html",
+      "title": "Planejamento e Prestação de Contas - SergipePrevidência",
+      "category": "Portal da Transparência",
+      "doc_count": 5,
+      "sha256": "f5e03acb865f4b8344563b73911a3059b18fbef1fdd66fd562911f37b2d026e7"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/portal-transparencia/planejamentoprestacaocontas/balancetes/",
+      "rel_path": "portal-transparencia/planejamentoprestacaocontas/balancetes/index.html",
+      "title": "Balancetes Mensais - SergipePrevidência",
+      "category": "Portal da Transparência",
+      "doc_count": 185,
+      "sha256": "10d8a161c06313e03f7863f12d9ae272ffedcc47046276fc8b2b7cb5be48d756"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/portal-transparencia/planejamentoprestacaocontas/balancogeral/",
+      "rel_path": "portal-transparencia/planejamentoprestacaocontas/balancogeral/index.html",
+      "title": "Prestação de Contas (Balanço Geral) - SergipePrevidência",
+      "category": "Portal da Transparência",
+      "doc_count": 21,
+      "sha256": "a0d9ba9e2e25642db9d1bbc9dd992ff23820a9e5857d0866d8aaa8bfa91ea1a8"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/portal-transparencia/planejamentoprestacaocontas/planoestrategico/",
+      "rel_path": "portal-transparencia/planejamentoprestacaocontas/planoestrategico/index.html",
+      "title": "Plano Estratégico Institucional - SergipePrevidência",
+      "category": "Portal da Transparência",
+      "doc_count": 9,
+      "sha256": "487e8c36b4ac4520bb6e550a0f03569e7bdbe4970ca0601ecde7a3988e7ed81c"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/portal-transparencia/planejamentoprestacaocontas/relatoriogestao/",
+      "rel_path": "portal-transparencia/planejamentoprestacaocontas/relatoriogestao/index.html",
+      "title": "Relatório de Gestão ou Atividades - SergipePrevidência",
+      "category": "Portal da Transparência",
+      "doc_count": 9,
+      "sha256": "603d8f3d4a59fb009c61ef3db8b530719f7b1907d2013bc72d42ce0f75cca96f"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/portal-transparencia/planejamentoprestacaocontas/rgf/",
+      "rel_path": "portal-transparencia/planejamentoprestacaocontas/rgf/index.html",
+      "title": "Relatório de Gestão Fiscal (RGF) - SergipePrevidência",
+      "category": "Portal da Transparência",
+      "doc_count": 16,
+      "sha256": "39478861ac977cc13798dcb31b83becc3fa1bc56eb072698e671d2b14db3b030"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/portal-transparencia/planejamentoprestacaocontas/tce/",
+      "rel_path": "portal-transparencia/planejamentoprestacaocontas/tce/index.html",
+      "title": "Julgamento pelo Tribunal de Contas - SergipePrevidência",
+      "category": "Portal da Transparência",
+      "doc_count": 18,
+      "sha256": "a8b52f21f26fe667ecc2d459b2f8b0a34c4161a04ae4d10e42d6b8f818ea57c8"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/portal-transparencia/receitas/",
+      "rel_path": "portal-transparencia/receitas/index.html",
+      "title": "Receitas - SergipePrevidência",
+      "category": "Portal da Transparência",
+      "doc_count": 5,
+      "sha256": "01770e3aa852182574b1b14386a7aaa712511e38c77da5b8aca747106bae5fba"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/portal-transparencia/receitas/previstaarrecada/",
+      "rel_path": "portal-transparencia/receitas/previstaarrecada/index.html",
+      "title": "Receitas previstas e arrecadadas - SergipePrevidência",
+      "category": "Portal da Transparência",
+      "doc_count": 5,
+      "sha256": "e9b1b7788f235118aec9b4560a68707988ce18736ca05ee185029a94b3a98931"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/portal-transparencia/recursoshumanos/",
+      "rel_path": "portal-transparencia/recursoshumanos/index.html",
+      "title": "Recursos humanos - SergipePrevidência",
+      "category": "Portal da Transparência",
+      "doc_count": 5,
+      "sha256": "8ddb40989bfe9c2ed82932e512b71d9be6c4ecd756edbfa02f69540c7882cf7b"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/portal-transparencia/recursoshumanos/concurso/",
+      "rel_path": "portal-transparencia/recursoshumanos/concurso/index.html",
+      "title": "Concursos e Seleções Públicas - SergipePrevidência",
+      "category": "Portal da Transparência",
+      "doc_count": 5,
+      "sha256": "aeb34fe873c4326d74f4fe310691a8f2de45d9405ca67bfd5b157a306f3b5735"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/portal-transparencia/recursoshumanos/estagiarios/",
+      "rel_path": "portal-transparencia/recursoshumanos/estagiarios/index.html",
+      "title": "Estagiários - SergipePrevidência",
+      "category": "Portal da Transparência",
+      "doc_count": 5,
+      "sha256": "a86b60d961142d4340110b29d2b710e47c3ae140d46d12a743075a16f36a73d0"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/portal-transparencia/recursoshumanos/folhapagamento/",
+      "rel_path": "portal-transparencia/recursoshumanos/folhapagamento/index.html",
+      "title": "Folha de Pagamento / Remuneração Nominal - SergipePrevidência",
+      "category": "Portal da Transparência",
+      "doc_count": 6,
+      "sha256": "1fa20a768e6706590eb12c8e254d3803969438e680fabaa03fc24f17fdf2729a"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/portal-transparencia/recursoshumanos/padraoremuneratorio/",
+      "rel_path": "portal-transparencia/recursoshumanos/padraoremuneratorio/index.html",
+      "title": "Padrão Remuneratório - SergipePrevidência",
+      "category": "Portal da Transparência",
+      "doc_count": 5,
+      "sha256": "aca9c0e21f9b9be8f7406c19a64bb512ee95fbf3b26f00ecf7a15b4f4a8cf517"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/portal-transparencia/recursoshumanos/terceirizados/",
+      "rel_path": "portal-transparencia/recursoshumanos/terceirizados/index.html",
+      "title": "Terceirizados - SergipePrevidência",
+      "category": "Portal da Transparência",
+      "doc_count": 5,
+      "sha256": "8e1ae74aea97e30251e21d43871732662ea74f3cfe86a694a60b07f8aa51ee99"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/portal-transparencia/sic/",
+      "rel_path": "portal-transparencia/sic/index.html",
+      "title": "SIC - SergipePrevidência",
+      "category": "Portal da Transparência",
+      "doc_count": 5,
+      "sha256": "fe2171e2723b145bf3067e3dfca9ef92151b5e09f579221a5affa0df5ba6877d"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/portal-transparencia/sic/detalhe/",
+      "rel_path": "portal-transparencia/sic/detalhe/index.html",
+      "title": "SIC — Atendimento presencial - SergipePrevidência",
+      "category": "Portal da Transparência",
+      "doc_count": 5,
+      "sha256": "bb894f6f6d6cdfdcaf6199ae8d9adb0cf3d7b39e6d225b7c5cb65a4d5b8d52ca"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/portal-transparencia/sic/esic/",
+      "rel_path": "portal-transparencia/sic/esic/index.html",
+      "title": "e-SIC — Acesso à informação - SergipePrevidência",
+      "category": "Portal da Transparência",
+      "doc_count": 6,
+      "sha256": "42320c683e226d1440ee2ebe93dafbf86d13537b2c8c6921fdbaaacf573901d9"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/portal-transparencia/sic/esic/cadastro/",
+      "rel_path": "portal-transparencia/sic/esic/cadastro/index.html",
+      "title": "Acesso ao e-SIC - SergipePrevidência",
+      "category": "Portal da Transparência",
+      "doc_count": 5,
+      "sha256": "76b5242f79d1ed5aa6f6333b0fdcc6b6ee2b11241772b4c97ca6e63ad9f8b3c6"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/portal-transparencia/sic/lai/",
+      "rel_path": "portal-transparencia/sic/lai/index.html",
+      "title": "Lei de Acesso à Informação — Regulamentação local - SergipePrevidência",
+      "category": "Portal da Transparência",
+      "doc_count": 6,
+      "sha256": "f919716f1caaaec4d4e5fcd51f0178c8480864e47a166616ca7a4b2dbc6c123f"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/portal-transparencia/sic/relatorioanualestatistico/",
+      "rel_path": "portal-transparencia/sic/relatorioanualestatistico/index.html",
+      "title": "Relatório Anual Estatístico - SergipePrevidência",
+      "category": "Portal da Transparência",
+      "doc_count": 5,
+      "sha256": "67fdf467f7def6afeaad8f3b5a537ebe71797e8f9855301b008db5dc7cd30c06"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/transparencia-tcese/",
+      "rel_path": "transparencia-tcese/index.html",
+      "title": "Transparência TCESE - SergipePrevidência",
+      "category": "Portal da Transparência",
+      "doc_count": 5,
+      "sha256": "f1600583c221807d9a32af57bd7ca9bbe76340e3842df96b8045f38e95db483b"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/transparencia/investimentos/",
+      "rel_path": "transparencia/investimentos/index.html",
+      "title": "investimentos - SergipePrevidência",
+      "category": "Portal da Transparência",
+      "doc_count": 107,
+      "sha256": "ee224c8604295ccb17b460d4aaaeedf7968f760dce4e88e0d73de501a2680648"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/transparencia/relatorios/",
+      "rel_path": "transparencia/relatorios/index.html",
+      "title": "Relatórios - SergipePrevidência",
+      "category": "Portal da Transparência",
+      "doc_count": 87,
+      "sha256": "54854c94a75d74999dc0c3ff59d7710d83d7fc6d2f53522a68a9d1458b9fbf6b"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/pro-gestao-nivel-iv/",
+      "rel_path": "pro-gestao-nivel-iv/index.html",
+      "title": "Pró-Gestão Nível IV - SergipePrevidência",
+      "category": "Pró-Gestão",
+      "doc_count": 5,
+      "sha256": "f3a222544695d6be5f8f29148cf1d8b3fd554fbd353350d710209bfbe58a1b2c"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/pro-gestao/",
+      "rel_path": "pro-gestao/index.html",
+      "title": "Pró-Gestão Nível III - SergipePrevidência",
+      "category": "Pró-Gestão",
+      "doc_count": 5,
+      "sha256": "ef75bfc53628b3c4d6a28c8c833206ce8fb5774e0f41be73d28f50e6b6f3940b"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/progestao/",
+      "rel_path": "progestao/index.html",
+      "title": "Pró-gestão - SergipePrevidência",
+      "category": "Pró-Gestão",
+      "doc_count": 5,
+      "sha256": "f5b5e8a3404260c4eb91d6c70e359a4ea5fd5193aad9617412529f4b0ccb9bad"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/progestao/cadprev/",
+      "rel_path": "progestao/cadprev/index.html",
+      "title": "CADPREV - SergipePrevidência",
+      "category": "Pró-Gestão",
+      "doc_count": 6,
+      "sha256": "fb0752ee246ea85a64c755b178dbcdf61160bfbf6287c4638175769e95a12c30"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/progestao/conselhos/",
+      "rel_path": "progestao/conselhos/index.html",
+      "title": "Conselhos e Comitês - SergipePrevidência",
+      "category": "Pró-Gestão",
+      "doc_count": 265,
+      "sha256": "865c2bb2b2a846382065e8292cced152e03224bb1bf18823ef2d2b37790e1e10"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/progestao/controleinterno-backup/",
+      "rel_path": "progestao/controleinterno-backup/index.html",
+      "title": "Controle Interno backup - SergipePrevidência",
+      "category": "Pró-Gestão",
+      "doc_count": 26,
+      "sha256": "e1535f5f1a8749ec431b493834ab5475ff220b014605ade8c2548dadfcdb9b9f"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/progestao/controleinterno/",
+      "rel_path": "progestao/controleinterno/index.html",
+      "title": "Controle Interno - SergipePrevidência",
+      "category": "Pró-Gestão",
+      "doc_count": 26,
+      "sha256": "86d14b434f59a8264501eb5d20ea89c383634d917ee0f060f47d3006339bdc43"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/progestao/estrutura-organizacional/",
+      "rel_path": "progestao/estrutura-organizacional/index.html",
+      "title": "Estrutura Organizacional, Competências e Atribuições - SergipePrevidência",
+      "category": "Pró-Gestão",
+      "doc_count": 9,
+      "sha256": "10fc7eead38253ec03ab6510cf73921cd7e94f7f5d7dbfcb161bc3661983faf9"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/progestao/folha-de-pagamento-inativos-e-pensionistas/",
+      "rel_path": "progestao/folha-de-pagamento-inativos-e-pensionistas/index.html",
+      "title": "Folha de Pagamento - Inativos e Pensionistas - SergipePrevidência",
+      "category": "Pró-Gestão",
+      "doc_count": 232,
+      "sha256": "6ae9c54ae83ef788029db251a4bde7e9660d87858796c536702b27122f6b7727"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/progestao/governanca-backup/",
+      "rel_path": "progestao/governanca-backup/index.html",
+      "title": "Governança backup - SergipePrevidência",
+      "category": "Pró-Gestão",
+      "doc_count": 26,
+      "sha256": "40b292b922ba9d49b784406579afabae1340bdf11c070f98a6555ca571ac950c"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/progestao/governanca/",
+      "rel_path": "progestao/governanca/index.html",
+      "title": "Governança - SergipePrevidência",
+      "category": "Pró-Gestão",
+      "doc_count": 26,
+      "sha256": "1b6469692ad7465c65531b5048179f9d776a4b78eb53d01a33b09fc07907170f"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/progestao/identidade-estrategica-backup/",
+      "rel_path": "progestao/identidade-estrategica-backup/index.html",
+      "title": "Identidade Estratégica-backup - SergipePrevidência",
+      "category": "Pró-Gestão",
+      "doc_count": 5,
+      "sha256": "4b221c073bb5e76e66f45eaf803a5ce1a787f3231393ad303dc5a8d2dd76d400"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/progestao/identidade-estrategica/",
+      "rel_path": "progestao/identidade-estrategica/index.html",
+      "title": "Identidade Estratégica - SergipePrevidência",
+      "category": "Pró-Gestão",
+      "doc_count": 5,
+      "sha256": "a80cca93ddaf53f00759db7a8178201e8ac0436b0d0d3aeeb80b9b5911c5fedd"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/progestao/investimentos/",
+      "rel_path": "progestao/investimentos/index.html",
+      "title": "investimentos - SergipePrevidência",
+      "category": "Pró-Gestão",
+      "doc_count": 107,
+      "sha256": "ee224c8604295ccb17b460d4aaaeedf7968f760dce4e88e0d73de501a2680648"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/progestao/jettons/",
+      "rel_path": "progestao/jettons/index.html",
+      "title": "Jettons - SergipePrevidência",
+      "category": "Pró-Gestão",
+      "doc_count": 35,
+      "sha256": "13e95b29ac119f821890cef32ca60283a052c2a1f66656d1f992372d7593436c"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/progestao/legislacao/",
+      "rel_path": "progestao/legislacao/index.html",
+      "title": "Legislação - SergipePrevidência",
+      "category": "Pró-Gestão",
+      "doc_count": 5,
+      "sha256": "6e09b41c178758a51d43e836cba2e3a4a960d280f5ede52b3b0b3ab4abfc080c"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/progestao/legislacao/decreto/",
+      "rel_path": "progestao/legislacao/decreto/index.html",
+      "title": "Decreto - SergipePrevidência",
+      "category": "Pró-Gestão",
+      "doc_count": 12,
+      "sha256": "99cfeba744f54f83244631bfdc9c62be11126a3dbeb1fcab5e2f0df2e95878a8"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/progestao/legislacao/emenda-constitucional/",
+      "rel_path": "progestao/legislacao/emenda-constitucional/index.html",
+      "title": "Emenda Constitucional - SergipePrevidência",
+      "category": "Pró-Gestão",
+      "doc_count": 6,
+      "sha256": "84fa0a146bb6dd4768389fa2dad282d523ae8643d69700c4fa3e2e4112ba01ab"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/progestao/legislacao/estatuto/",
+      "rel_path": "progestao/legislacao/estatuto/index.html",
+      "title": "Estatuto - SergipePrevidência",
+      "category": "Pró-Gestão",
+      "doc_count": 10,
+      "sha256": "5aed0bfdcd47f2496024918a36434bf0c445fe97d41db30af126835795f3cb00"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/progestao/legislacao/lei-complementar/",
+      "rel_path": "progestao/legislacao/lei-complementar/index.html",
+      "title": "Lei Complementar - SergipePrevidência",
+      "category": "Pró-Gestão",
+      "doc_count": 32,
+      "sha256": "71587009ac991737cfb85a7465e62b901a74c862d5f4aeec0720871e44c026e7"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/progestao/legislacao/lei-federal/",
+      "rel_path": "progestao/legislacao/lei-federal/index.html",
+      "title": "Lei Federal - SergipePrevidência",
+      "category": "Pró-Gestão",
+      "doc_count": 7,
+      "sha256": "30f06d7bb6a5dde97ebbea32c3ac15b9e75c42364377525ecb5d2c5f77ce7536"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/progestao/legislacao/lei-ordinaria/",
+      "rel_path": "progestao/legislacao/lei-ordinaria/index.html",
+      "title": "Lei Ordinária - SergipePrevidência",
+      "category": "Pró-Gestão",
+      "doc_count": 17,
+      "sha256": "9572a268c0992101dcfd891803a8ce07c8bff39c6a5d33e58034aa4390f4c963"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/progestao/legislacao/orientacao-normativa/",
+      "rel_path": "progestao/legislacao/orientacao-normativa/index.html",
+      "title": "Orientação Normativa - SergipePrevidência",
+      "category": "Pró-Gestão",
+      "doc_count": 7,
+      "sha256": "dc63832befce25797af478ba69e6b065203f0e3582c9806aeed78580f038557c"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/progestao/legislacao/portaria/",
+      "rel_path": "progestao/legislacao/portaria/index.html",
+      "title": "Portaria - SergipePrevidência",
+      "category": "Pró-Gestão",
+      "doc_count": 518,
+      "sha256": "c0486b2fe0997f662ab548e90fcd10e5a8275d577366315081844092c7624788"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/progestao/legislacao/resolucao/",
+      "rel_path": "progestao/legislacao/resolucao/index.html",
+      "title": "Resolução - SergipePrevidência",
+      "category": "Pró-Gestão",
+      "doc_count": 105,
+      "sha256": "8b8e0346c18371f28609ceecd9b2974c12f1a6d22a0cc53e18c47e421d518a95"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/progestao/licitacoes-e-contratos2/",
+      "rel_path": "progestao/licitacoes-e-contratos2/index.html",
+      "title": "Licitações e Contratos2 - SergipePrevidência",
+      "category": "Pró-Gestão",
+      "doc_count": 5,
+      "sha256": "20dc00f8ef3dfc34e28f55dfda7f838727f5f09f169d07d6014c00b1b5f0dc77"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/progestao/pessoal/",
+      "rel_path": "progestao/pessoal/index.html",
+      "title": "Pessoal - SergipePrevidência",
+      "category": "Pró-Gestão",
+      "doc_count": 413,
+      "sha256": "604afea903216667bcd587924c41f7b805d28cbec2c8b25279385f55fbc30d4b"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/progestao/pessoal1/",
+      "rel_path": "progestao/pessoal1/index.html",
+      "title": "Pessoal1 - SergipePrevidência",
+      "category": "Pró-Gestão",
+      "doc_count": 5,
+      "sha256": "9b08cb1a80957e28f5633727fd5f00183c9877f6615b2c196b253262d2060014"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/progestao/planejamento-estrategico/",
+      "rel_path": "progestao/planejamento-estrategico/index.html",
+      "title": "Planejamento Estratégico - SergipePrevidência",
+      "category": "Pró-Gestão",
+      "doc_count": 9,
+      "sha256": "04fdd0966725696367db228ce5c8e71fed35aac94e4f2768d825f1ef1ef44f28"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/progestao/receitas-antiga/",
+      "rel_path": "progestao/receitas-antiga/index.html",
+      "title": "Receitas-antiga - SergipePrevidência",
+      "category": "Pró-Gestão",
+      "doc_count": 459,
+      "sha256": "d03e22fd392952c5c275a39f7e2b0976007460227cd1577ce2d8dac1436899da"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/progestao/regularidadetributaria/",
+      "rel_path": "progestao/regularidadetributaria/index.html",
+      "title": "Regularidade Tributária - SergipePrevidência",
+      "category": "Pró-Gestão",
+      "doc_count": 11,
+      "sha256": "9b893577484c2ee453317ef30ac8a7b10a6c0cac10d2fa4a8f0e7a721288d50c"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/progestao/regularidadetributariabackup/",
+      "rel_path": "progestao/regularidadetributariabackup/index.html",
+      "title": "Regularidade Tributária backup - SergipePrevidência",
+      "category": "Pró-Gestão",
+      "doc_count": 11,
+      "sha256": "33b8bf8e17484621e29e1b57cdfb3c65749fd095f9473a8ba4c03175ada066a0"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/progestao/sergipe-previdencia-em-numeros-backup/",
+      "rel_path": "progestao/sergipe-previdencia-em-numeros-backup/index.html",
+      "title": "Sergipe Previdência em Números backup - SergipePrevidência",
+      "category": "Pró-Gestão",
+      "doc_count": 109,
+      "sha256": "9a9dc931f2112520a3c5eb55146200fb6d1ff84b5b4b19a47341b85a99faaa96"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/progestao/sergipe-previdencia-em-numeros/",
+      "rel_path": "progestao/sergipe-previdencia-em-numeros/index.html",
+      "title": "Sergipe Previdência em Números - SergipePrevidência",
+      "category": "Pró-Gestão",
+      "doc_count": 109,
+      "sha256": "138413f8ed2c408e74a5c26c543eb462e6164f44a119e6bb8da0631e7cb453c0"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/3a-colocacao-no-premio-destaque-brasil-de-governanca-previdenciaria-2024/",
+      "rel_path": "3a-colocacao-no-premio-destaque-brasil-de-governanca-previdenciaria-2024/index.html",
+      "title": "3ª colocação no Prêmio Destaque Brasil de Governança Previdenciária - 2024 - SergipePrevidência",
+      "category": "Serviços & Outras Páginas",
+      "doc_count": 5,
+      "sha256": "40f3445d622a64abfe8df528dc362df129a0dea6c2fe8c29624b85591c33c5a6"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/audiencia-publica/",
+      "rel_path": "audiencia-publica/index.html",
+      "title": "Audiência Pública - SergipePrevidência",
+      "category": "Serviços & Outras Páginas",
+      "doc_count": 5,
+      "sha256": "60d18d05be86e9f922bec56f1865caff4f358c4af4c1bb0d583b053ff013eec3"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/audios/",
+      "rel_path": "audios/index.html",
+      "title": "Áudios - SergipePrevidência",
+      "category": "Serviços & Outras Páginas",
+      "doc_count": 5,
+      "sha256": "4d018818500cc0a9880a5da45cd99d4d6af12a60e51fc6f51c13fc957213a2d5"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/calendario-2022/",
+      "rel_path": "calendario-2022/index.html",
+      "title": "Calendário 2022 - SergipePrevidência",
+      "category": "Programas & Ações",
+      "doc_count": 5,
+      "sha256": "f1c67c7044bfa1038d17a1385a432f8328f948e4f5b46bbf6ebc8271ff40792c"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/calendario-2023/",
+      "rel_path": "calendario-2023/index.html",
+      "title": "Calendário 2023 - SergipePrevidência",
+      "category": "Programas & Ações",
+      "doc_count": 5,
+      "sha256": "4569c6f37172acac887f93c67091936cf73bb3d76301529f388b86c004226e90"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/calendarios/",
+      "rel_path": "calendarios/index.html",
+      "title": "Calendários - SergipePrevidência",
+      "category": "Programas & Ações",
+      "doc_count": 7,
+      "sha256": "84063745e1381ed9dc742c6bcd630fc612aa6763ecf23f5f2d46b2d8b9917d89"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/cartilhas/",
+      "rel_path": "cartilhas/index.html",
+      "title": "Cartilhas - SergipePrevidência",
+      "category": "Serviços & Outras Páginas",
+      "doc_count": 6,
+      "sha256": "d37e350fe3d44e564efe12c4888ab6ab72e1ecde99e8fb8d1258d010b87315f1"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/censo-cadastral-2024/",
+      "rel_path": "censo-cadastral-2024/index.html",
+      "title": "- SergipePrevidência",
+      "category": "Programas & Ações",
+      "doc_count": 6,
+      "sha256": "f23f6db573ead9ccb85350d638d90d0608ce477ea76e962c5e4c91ac5954dcd7"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/censo/",
+      "rel_path": "censo/index.html",
+      "title": "Censo Previdenciário dos Ativos 2026 - SergipePrevidência",
+      "category": "Programas & Ações",
+      "doc_count": 5,
+      "sha256": "9693a147ac915f89d416c0ba61cb4998f23b99e8dfdf61bdebd813fd1b6b3c6e"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/censo2019/",
+      "rel_path": "censo2019/index.html",
+      "title": "Encerramento do Censo Previdenciário 2019 - SergipePrevidência",
+      "category": "Programas & Ações",
+      "doc_count": 12,
+      "sha256": "2e627818dd799632ff50540dc8e80d29fdef1ac59a8fc2d8dbdf266dd940621d"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/como-sera-realizado/",
+      "rel_path": "como-sera-realizado/index.html",
+      "title": "Como será realizado - SergipePrevidência",
+      "category": "Serviços & Outras Páginas",
+      "doc_count": 5,
+      "sha256": "89b902335081f784e5785e933694e26b01f31698d102c5c62975d135b5a1bff3"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/conquistas/",
+      "rel_path": "conquistas/index.html",
+      "title": "Conquistas - SergipePrevidência",
+      "category": "Serviços & Outras Páginas",
+      "doc_count": 5,
+      "sha256": "152d38b6fbbb858e593b54dafa82626525143499ba4e9d54e96c600161ac22c8"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/contas-anuais/",
+      "rel_path": "contas-anuais/index.html",
+      "title": "Contas anuais - SergipePrevidência",
+      "category": "Serviços & Outras Páginas",
+      "doc_count": 21,
+      "sha256": "59c4a8dda8412e0f93732cf58f3fa4124f41f3e7e47b374f904bb7bb31e9fa24"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/coral-do-sergipeprevidencia-leva-emocao-ao-concerto-da-independencia-no-santuario-sao-jose/",
+      "rel_path": "coral-do-sergipeprevidencia-leva-emocao-ao-concerto-da-independencia-no-santuario-sao-jose/index.html",
+      "title": "Coral do SergipePrevidência leva emoção ao Concerto da Independência no Santuário São José - SergipePrevidência",
+      "category": "Serviços & Outras Páginas",
+      "doc_count": 5,
+      "sha256": "5eeb1d95a68fb062d59aa988a76709823616149500cf2b5e0558c77270f0536e"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/credenciamento-instituicoes-financeiras/",
+      "rel_path": "credenciamento-instituicoes-financeiras/index.html",
+      "title": "Credenciamento Instituições Financeiras - SergipePrevidência",
+      "category": "Serviços & Outras Páginas",
+      "doc_count": 21,
+      "sha256": "2e0ffd9b3288880b2d69790d422693fb3455a0ad7a511108fb57df16dff0c03e"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/credenciamento-instituicoes-nao-financeiras/",
+      "rel_path": "credenciamento-instituicoes-nao-financeiras/index.html",
+      "title": "Credenciamento Instituições Não Financeiras - SergipePrevidência",
+      "category": "Serviços & Outras Páginas",
+      "doc_count": 15,
+      "sha256": "32cd2f056c034f10f84b367f15c99f873360bcc1279f3c228ca26f0760a10e1a"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/credenciamento-para-pericia-medica/",
+      "rel_path": "credenciamento-para-pericia-medica/index.html",
+      "title": "Perícia Médica - SergipePrevidência",
+      "category": "Serviços & Outras Páginas",
+      "doc_count": 12,
+      "sha256": "ff71d18abe1efe7ced41f64c8360660e3d5ab7d06741b84858ce31d9a86ff7a6"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/credenciamentos-backup/",
+      "rel_path": "credenciamentos-backup/index.html",
+      "title": "Credenciamentos - backup - SergipePrevidência",
+      "category": "Serviços & Outras Páginas",
+      "doc_count": 5,
+      "sha256": "a25446ccd0733a76f8c9d40507950ccbd9ca425428edd7d3e3b3b376f9ef457d"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/credenciamentos-backup/credenciamento-de-instituicoes-financeiras-backup/",
+      "rel_path": "credenciamentos-backup/credenciamento-de-instituicoes-financeiras-backup/index.html",
+      "title": "Credenciamento Instituições Financeiras backup - SergipePrevidência",
+      "category": "Serviços & Outras Páginas",
+      "doc_count": 21,
+      "sha256": "dcfb87c65f6fe76f679b5054b098c79c3c6496916a00a6f6d9ea5adbbd7b5580"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/credenciamentos-backup/credenciamento-instituicoes-nao-financeiras/",
+      "rel_path": "credenciamentos-backup/credenciamento-instituicoes-nao-financeiras/index.html",
+      "title": "Credenciamento Instituições Não Financeiras - SergipePrevidência",
+      "category": "Serviços & Outras Páginas",
+      "doc_count": 15,
+      "sha256": "f5cef3d151563ed1eef7701bbe53008a45a223812f451d1ae3e7e88a1d9aa9c6"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/credenciamentos/",
+      "rel_path": "credenciamentos/index.html",
+      "title": "Credenciamentos - SergipePrevidência",
+      "category": "Serviços & Outras Páginas",
+      "doc_count": 5,
+      "sha256": "ca4ded4c1e246498437ecdd19b71afa058d7c429f86852ca5b533760fda1e709"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/credenciamentos/credenciamento-de-instituicoes-financeiras/",
+      "rel_path": "credenciamentos/credenciamento-de-instituicoes-financeiras/index.html",
+      "title": "Credenciamento Instituições Financeiras backup - SergipePrevidência",
+      "category": "Serviços & Outras Páginas",
+      "doc_count": 21,
+      "sha256": "dcfb87c65f6fe76f679b5054b098c79c3c6496916a00a6f6d9ea5adbbd7b5580"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/credenciamentos/credenciamento-instituicoes-nao-financeiras/",
+      "rel_path": "credenciamentos/credenciamento-instituicoes-nao-financeiras/index.html",
+      "title": "Credenciamento Instituições Não Financeiras - SergipePrevidência",
+      "category": "Serviços & Outras Páginas",
+      "doc_count": 15,
+      "sha256": "f5cef3d151563ed1eef7701bbe53008a45a223812f451d1ae3e7e88a1d9aa9c6"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/dados-abertos/",
+      "rel_path": "dados-abertos/index.html",
+      "title": "Dados abertos - SergipePrevidência",
+      "category": "Portal da Transparência",
+      "doc_count": 5,
+      "sha256": "3a311a544a3f78c6bb118b1328a28ce89d54b11c79ca7e6af12b40dbb00117f9"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/declaracao-de-dependentes/",
+      "rel_path": "declaracao-de-dependentes/index.html",
+      "title": "Declaração de Dependentes - SergipePrevidência",
+      "category": "Serviços & Outras Páginas",
+      "doc_count": 5,
+      "sha256": "7452c3efb41354d8b3334444180774b3e4b3aa59f8cb72ef4d62e1a97ae2315e"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/decreto-censo-2019/",
+      "rel_path": "decreto-censo-2019/index.html",
+      "title": "Decreto e Portaria - Censo 2019 - SergipePrevidência",
+      "category": "Programas & Ações",
+      "doc_count": 7,
+      "sha256": "d1760715e7df81a3d90f52208bf21390c1dc7130c941abcbcd577425368e05c8"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/demonstracoes-financeiras-e-contabeis/",
+      "rel_path": "demonstracoes-financeiras-e-contabeis/index.html",
+      "title": "Demonstrações Financeiras e Contábeis - SergipePrevidência",
+      "category": "Portal da Transparência",
+      "doc_count": 727,
+      "sha256": "2ee1b5d568ce1a96eecb9e0feea68e211d41551daa949f7ac5109e252272a023"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/dependentes/",
+      "rel_path": "dependentes/index.html",
+      "title": "Dependentes - SergipePrevidência",
+      "category": "Serviços & Outras Páginas",
+      "doc_count": 5,
+      "sha256": "2816e91e1a8cbc83c56ff81d0e8abcd02674dff761e461789e7cf1ff084eeea5"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/documentos-censo-2019/",
+      "rel_path": "documentos-censo-2019/index.html",
+      "title": "Documentos Exigidos - SergipePrevidência",
+      "category": "Programas & Ações",
+      "doc_count": 12,
+      "sha256": "7eac8a32365738ffd89db2738a3fb170b1349e64b0b7ff282dd9a76cb63a3caa"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/educacao-empreendedora-2/",
+      "rel_path": "educacao-empreendedora-2/index.html",
+      "title": "Vamos Empreender - SergipePrevidência",
+      "category": "Serviços & Outras Páginas",
+      "doc_count": 5,
+      "sha256": "f2a954d9dcdab73f75eff753a7eed0ccd8e05ec9322e3919fc53941a85d061df"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/faq/",
+      "rel_path": "faq/index.html",
+      "title": "Perguntas Frequentes - SergipePrevidência",
+      "category": "Serviços & Outras Páginas",
+      "doc_count": 6,
+      "sha256": "5eda897d055ff0deba0208cb6c3395f8c9377a82ebe9aa74fe0f7d96750c9e00"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/formularios-e-manuais/",
+      "rel_path": "formularios-e-manuais/index.html",
+      "title": "Formulários e Manuais - SergipePrevidência",
+      "category": "Serviços & Outras Páginas",
+      "doc_count": 9,
+      "sha256": "b7a063eb2330f3203b4053e01a9890dd6354b195a0a6a3449393b229fd4f0aad"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/governo-de-sergipe-renova-o-certificado-de-regularidade-previdenciaria-e-mantem-a-tripla-certificacao-de-gestao/",
+      "rel_path": "governo-de-sergipe-renova-o-certificado-de-regularidade-previdenciaria-e-mantem-a-tripla-certificacao-de-gestao/index.html",
+      "title": "Governo de Sergipe renova o Certificado de Regularidade Previdenciária e mantém a tripla certificação de gestão - SergipePrevidência",
+      "category": "Serviços & Outras Páginas",
+      "doc_count": 5,
+      "sha256": "750f06ec7d2995e5f68e0ee654294ca283fd283764877e44214fcc48e6b9d512"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/governo-do-estado-conclui-pagamento-da-folha-de-outubro-nesta-terca-feira-10/",
+      "rel_path": "governo-do-estado-conclui-pagamento-da-folha-de-outubro-nesta-terca-feira-10/index.html",
+      "title": "Governo do Estado conclui pagamento da folha de outubro nesta terça-feira, 10 - SergipePrevidência",
+      "category": "Serviços & Outras Páginas",
+      "doc_count": 5,
+      "sha256": "7a7905b737f59e228455e26af747070edab35d57ecd0029cb57e8ab8002ed065"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/guia-de-recolhimento/",
+      "rel_path": "guia-de-recolhimento/index.html",
+      "title": "Guia de Recolhimento - SergipePrevidência",
+      "category": "Serviços & Outras Páginas",
+      "doc_count": 6,
+      "sha256": "f81d48ea54f4d9878b9635ea09304f8d9a22be5114a84a5c6bd98c87192c55ee"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/home/feed/",
+      "rel_path": "home/feed/index.html",
+      "title": "Comentários sobre: Home",
+      "category": "Serviços & Outras Páginas",
+      "doc_count": 0,
+      "sha256": "dfd8651e6b8cccc35abc5d56da36f261aacaa61c6bee9d36a9d44bf8429c2993"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/identidade-estrategica/",
+      "rel_path": "identidade-estrategica/index.html",
+      "title": "Identidade Estratégica - SergipePrevidência",
+      "category": "Serviços & Outras Páginas",
+      "doc_count": 5,
+      "sha256": "a80cca93ddaf53f00759db7a8178201e8ac0436b0d0d3aeeb80b9b5911c5fedd"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/indice-de-situacao-previdenciaria/",
+      "rel_path": "indice-de-situacao-previdenciaria/index.html",
+      "title": "Índice de Situação Previdenciária - SergipePrevidência",
+      "category": "Pró-Gestão",
+      "doc_count": 5,
+      "sha256": "3512651d77c17965406c16ca1cb845440c9998e5ea32ec238f952011e93542cc"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/institucional-antigo/",
+      "rel_path": "institucional-antigo/index.html",
+      "title": "Institucional-antigo - SergipePrevidência",
+      "category": "Institucional & Legislação",
+      "doc_count": 5,
+      "sha256": "2e4964c40e885591d473777388bffe4b1a2658c8e3dce21cf96574c525257af8"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/institucional-antigo/competencias-2/",
+      "rel_path": "institucional-antigo/competencias-2/index.html",
+      "title": "Competências - SergipePrevidência",
+      "category": "Institucional & Legislação",
+      "doc_count": 6,
+      "sha256": "21b7de551415f9730714fb3790cf3c60a180460214ddb8285077321d8b74271a"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/institucional-antigo/conselhos/",
+      "rel_path": "institucional-antigo/conselhos/index.html",
+      "title": "Conselhos e Comitês - SergipePrevidência",
+      "category": "Institucional & Legislação",
+      "doc_count": 265,
+      "sha256": "865c2bb2b2a846382065e8292cced152e03224bb1bf18823ef2d2b37790e1e10"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/institucional-antigo/diretoria-executiva/",
+      "rel_path": "institucional-antigo/diretoria-executiva/index.html",
+      "title": "Diretoria Executiva - SergipePrevidência",
+      "category": "Institucional & Legislação",
+      "doc_count": 5,
+      "sha256": "292bf894f886fb7f379f6b4fc19618d1c5731279f5abe41bd6f6f2b04f5009b0"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/institucional-antigo/estruturaadministrativa/",
+      "rel_path": "institucional-antigo/estruturaadministrativa/index.html",
+      "title": "Estrutura Administrativa - SergipePrevidência",
+      "category": "Institucional & Legislação",
+      "doc_count": 5,
+      "sha256": "67b154f86302ed143ae2d9579a105528a4d0f1df28a3d9d6b2aecba8be848605"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/institucional-antigo/organograma/",
+      "rel_path": "institucional-antigo/organograma/index.html",
+      "title": "Organograma - SergipePrevidência",
+      "category": "Institucional & Legislação",
+      "doc_count": 9,
+      "sha256": "afba46556cbce7cae136b112d0d9eee481b67b942289758285b1a7209de9969b"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/institucional/",
+      "rel_path": "institucional/index.html",
+      "title": "Institucional - SergipePrevidência",
+      "category": "Institucional & Legislação",
+      "doc_count": 5,
+      "sha256": "08905b025bcc2ba2c007e96f3f0ad19e6fcecdb55142c2f6ac5f991b4fd6371d"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/julgamento-de-contas-do-governo/",
+      "rel_path": "julgamento-de-contas-do-governo/index.html",
+      "title": "Julgamento de Contas do Governo de Sergipe - SergipePrevidência",
+      "category": "Serviços & Outras Páginas",
+      "doc_count": 5,
+      "sha256": "65903ffc292a9378d21ca90f771bfdea67d2a258d239ce0214fe24f86f95f506"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/legislacao/",
+      "rel_path": "legislacao/index.html",
+      "title": "Legislação - SergipePrevidência",
+      "category": "Institucional & Legislação",
+      "doc_count": 5,
+      "sha256": "6e09b41c178758a51d43e836cba2e3a4a960d280f5ede52b3b0b3ab4abfc080c"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/lei-geral-de-protecao-de-dados/",
+      "rel_path": "lei-geral-de-protecao-de-dados/index.html",
+      "title": "Lei Geral de Proteção de Dados Pessoais - LGPD - SergipePrevidência",
+      "category": "Serviços & Outras Páginas",
+      "doc_count": 14,
+      "sha256": "930c627ea25f60bd3dcc91cbda656c3b0f9f864f3c3708e59bfe0a618b894bdd"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/licitacoes-e-contratos/",
+      "rel_path": "licitacoes-e-contratos/index.html",
+      "title": "Licitações e Contratos - SergipePrevidência",
+      "category": "Serviços & Outras Páginas",
+      "doc_count": 55,
+      "sha256": "3b46ac195572a45f9d374f8d4da7ddf99526bbe60d478807eab7d43b58d813c3"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/meurpps-2/",
+      "rel_path": "meurpps-2/index.html",
+      "title": "Bem vindo ao Meu RPPS 2 - SergipePrevidência",
+      "category": "Serviços & Outras Páginas",
+      "doc_count": 5,
+      "sha256": "55cdfeae227b46c0930564ff856eb33391256d683d2d4e524a0bc2627e8fb89f"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/meurpps/",
+      "rel_path": "meurpps/index.html",
+      "title": "Bem vindo ao Meu RPPS - SergipePrevidência",
+      "category": "Serviços & Outras Páginas",
+      "doc_count": 5,
+      "sha256": "dc2aa8cbcca2334e464f036bef75f533ec6160a9c132b48471b65b8b51fac1a8"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/noticias/",
+      "rel_path": "noticias/index.html",
+      "title": "Notícias - SergipePrevidência",
+      "category": "Serviços & Outras Páginas",
+      "doc_count": 5,
+      "sha256": "2efc9d7032520b152627117f5e23966e66f21099c516ff7b0d53952e38404bea"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/onde-fazer/",
+      "rel_path": "onde-fazer/index.html",
+      "title": "Onde Fazer? - SergipePrevidência",
+      "category": "Serviços & Outras Páginas",
+      "doc_count": 7,
+      "sha256": "6847b5a1f3bc0dcb06839911670a3958621d0ba45897e28efd049332abcf135b"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/ouvidoria-4/",
+      "rel_path": "ouvidoria-4/index.html",
+      "title": "Ouvidoria-4 - SergipePrevidência",
+      "category": "Serviços & Outras Páginas",
+      "doc_count": 5,
+      "sha256": "6aed0bff6dd89a1a3e3442c860bdb631606d0282aa716632073374a65107ff55"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/ouvidoria-antiga/",
+      "rel_path": "ouvidoria-antiga/index.html",
+      "title": "Ouvidoria-antiga - SergipePrevidência",
+      "category": "Serviços & Outras Páginas",
+      "doc_count": 5,
+      "sha256": "98f2223a3484a4b90aa1f968c316b8b6fbeb1479fa82056da300fff21ca07fef"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/ouvidoria-antiga/diretrizes-gerais/",
+      "rel_path": "ouvidoria-antiga/diretrizes-gerais/index.html",
+      "title": "Diretrizes Gerais - SergipePrevidência",
+      "category": "Serviços & Outras Páginas",
+      "doc_count": 16,
+      "sha256": "b65b590574f65fbd6c10704357bd3ccced6b5de12d6847dd60ff505971ee613e"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/ouvidoria/",
+      "rel_path": "ouvidoria/index.html",
+      "title": "Ouvidoria - SergipePrevidência",
+      "category": "Serviços & Outras Páginas",
+      "doc_count": 6,
+      "sha256": "3c222d9baf00288ddbf1a59c985a76d3999a23ddf93adf7c7f87c0caf5cf11d0"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/perguntas-censo/",
+      "rel_path": "perguntas-censo/index.html",
+      "title": "Perguntas Censo - SergipePrevidência",
+      "category": "Programas & Ações",
+      "doc_count": 6,
+      "sha256": "3b681a76a58a4b223bac7e7e1db60c15032691a932384227b069a67ec820550f"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/politica-de-cookies/",
+      "rel_path": "politica-de-cookies/index.html",
+      "title": "Política de Cookies - SergipePrevidência",
+      "category": "Serviços & Outras Páginas",
+      "doc_count": 5,
+      "sha256": "c7524c0723c77b6e8c5bf294b5bac11729db1c699a1248c63dea7b7eb17a9c6d"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/premio-brasil-governanca-previdenciaria/",
+      "rel_path": "premio-brasil-governanca-previdenciaria/index.html",
+      "title": "Prêmio Destaque Brasil Governança Previdenciária 2023 - SergipePrevidência",
+      "category": "Serviços & Outras Páginas",
+      "doc_count": 5,
+      "sha256": "3dcb133de5051009c83f84e8e762675ed67ab94666b9825ddc820d7670531d03"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/premio-de-investimentos/",
+      "rel_path": "premio-de-investimentos/index.html",
+      "title": "Prêmio de Investimentos - SergipePrevidência",
+      "category": "Serviços & Outras Páginas",
+      "doc_count": 5,
+      "sha256": "d81d5a9b276d7c727c5b114141f9a3fe1f7c17737e16d4ba3c9f248e78d7ee8a"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/premio-destaque-brasil-de-reponsabilidade-previdenciaria-2024/",
+      "rel_path": "premio-destaque-brasil-de-reponsabilidade-previdenciaria-2024/index.html",
+      "title": "4ª colocação no Prêmio Destaque Brasil de Responsabilidade Previdenciária – 2024 - SergipePrevidência",
+      "category": "Serviços & Outras Páginas",
+      "doc_count": 5,
+      "sha256": "ca567baad437502432f9d6fea6ecd2a885c74c63cc93fb3a451c012218ed7223"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/premio-responsabilidade/",
+      "rel_path": "premio-responsabilidade/index.html",
+      "title": "Prêmio Destaque Brasil Responsabilidade Previdenciária 2023 - SergipePrevidência",
+      "category": "Serviços & Outras Páginas",
+      "doc_count": 5,
+      "sha256": "52741b8c6eacce8df21e5f703b23103f190da4b8658883dae1995d2d8b8d6710"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/prestacao-de-contas-2/",
+      "rel_path": "prestacao-de-contas-2/index.html",
+      "title": "Prestação de Contas - SergipePrevidência",
+      "category": "Portal da Transparência",
+      "doc_count": 5,
+      "sha256": "0e111344b871c60e3521834642d2045cfa3aecab31e985969894f83eec28937e"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/prestacao-de-contas-2/julgamento-de-contas/",
+      "rel_path": "prestacao-de-contas-2/julgamento-de-contas/index.html",
+      "title": "Julgamento de Contas - SergipePrevidência",
+      "category": "Portal da Transparência",
+      "doc_count": 5,
+      "sha256": "62f3225a0be975fa691b437e069bbff35e5d252da3709dccb56066162220bf40"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/prestacao-de-contas-2/julgamento-de-contas/relatorios-de-julgamento/",
+      "rel_path": "prestacao-de-contas-2/julgamento-de-contas/relatorios-de-julgamento/index.html",
+      "title": "Relatórios de Julgamento - SergipePrevidência",
+      "category": "Portal da Transparência",
+      "doc_count": 16,
+      "sha256": "7c3648a979ffac36f91bbcc3043b80768d175ca97a425f7677c3bea77b390f09"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/previdencia-de-sergipe-recebe-medalha/",
+      "rel_path": "previdencia-de-sergipe-recebe-medalha/index.html",
+      "title": "Previdência de Sergipe recebe Medalha do Mérito Previdenciário da Previdência - SergipePrevidência",
+      "category": "Serviços & Outras Páginas",
+      "doc_count": 5,
+      "sha256": "f610f659f354eaa6cbb6de98c3fac8bcc1ba381118083056e9c4ef88386b680d"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/programas/",
+      "rel_path": "programas/index.html",
+      "title": "Programas - SergipePrevidência",
+      "category": "Programas & Ações",
+      "doc_count": 8,
+      "sha256": "245f3d5f50daa0b77a1b547d5f4ab72d3cf99f6220df0f9ebe03d8d35f3f0ebb"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/programas/calendario-2024/",
+      "rel_path": "programas/calendario-2024/index.html",
+      "title": "Calendário 2024 - SergipePrevidência",
+      "category": "Programas & Ações",
+      "doc_count": 5,
+      "sha256": "76d4118696b640d9d1366e2455e51331330173391bbd80a9754493b322c3db48"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/programas/centenario/",
+      "rel_path": "programas/centenario/index.html",
+      "title": "Centenário - SergipePrevidência",
+      "category": "Programas & Ações",
+      "doc_count": 5,
+      "sha256": "31832f7114e6e40bd08ad575e85d3d91f2f7ab843439e28a59ea2241a2fede83"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/programas/coralprev/",
+      "rel_path": "programas/coralprev/index.html",
+      "title": "CoralPrev - SergipePrevidência",
+      "category": "Programas & Ações",
+      "doc_count": 5,
+      "sha256": "3324b8c4b6fda5b256b6cdf32347fd2ab1a9dff1b43d988ed4184a2f8747eeab"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/programas/dancaprev/",
+      "rel_path": "programas/dancaprev/index.html",
+      "title": "DançaPrev - SergipePrevidência",
+      "category": "Programas & Ações",
+      "doc_count": 5,
+      "sha256": "0e225feb22bb42f6f0beffdb8375b762685e29e5f975fa45a3e15d0c64e02f2c"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/programas/encontros-bem-estar/",
+      "rel_path": "programas/encontros-bem-estar/index.html",
+      "title": "Encontros de Bem - Estar - SergipePrevidência",
+      "category": "Programas & Ações",
+      "doc_count": 5,
+      "sha256": "2db467c3bade7fe531b5344ec4af92371b10c855e512472f7cadf58d36d0d703"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/programas/encontros-de-bem-estar/",
+      "rel_path": "programas/encontros-de-bem-estar/index.html",
+      "title": "Encontros de Bem-Estar Backup - SergipePrevidência",
+      "category": "Programas & Ações",
+      "doc_count": 5,
+      "sha256": "58736bfc3df14fd6877f871879497c91835956316415e7f6c567e7e93d8b7045"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/programas/preparacao-para-aposentadoria/",
+      "rel_path": "programas/preparacao-para-aposentadoria/index.html",
+      "title": "Preparação para Aposentadoria - SergipePrevidência",
+      "category": "Programas & Ações",
+      "doc_count": 5,
+      "sha256": "84031efe87c986b7de8e689d75cbc7c711dcda9c233017a4a08a34b76752902b"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/programas/programamelhoridade/",
+      "rel_path": "programas/programamelhoridade/index.html",
+      "title": "Programa Melhor Idade - SergipePrevidência",
+      "category": "Programas & Ações",
+      "doc_count": 6,
+      "sha256": "da1b84c19de3a0134f0a903592073023cc7fed1330576daaa636c70e7e3a009d"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/programas/recital/",
+      "rel_path": "programas/recital/index.html",
+      "title": "Recital - SergipePrevidência",
+      "category": "Programas & Ações",
+      "doc_count": 5,
+      "sha256": "a437ffd197ae7b691f614adffca5a00896809b2f8a31da43cdeb1c957458a667"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/programas/terapiaprev/",
+      "rel_path": "programas/terapiaprev/index.html",
+      "title": "TerapiaPrev - SergipePrevidência",
+      "category": "Programas & Ações",
+      "doc_count": 5,
+      "sha256": "c0774a04533edf6fa30cb242f31d21ebc265f6c897bb11758622f2eef250fc98"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/programas/vamosempreender/",
+      "rel_path": "programas/vamosempreender/index.html",
+      "title": "Vamos Empreender - SergipePrevidência",
+      "category": "Programas & Ações",
+      "doc_count": 5,
+      "sha256": "a786d1c44ababb5da31ff8f6b65e6b0c0dca4d64902335fa6252708485eab886"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/projeto-vamos-empreender-orienta-segurados-do-sergipeprevidencia-sobre-formacao-do-preco-de-venda/",
+      "rel_path": "projeto-vamos-empreender-orienta-segurados-do-sergipeprevidencia-sobre-formacao-do-preco-de-venda/index.html",
+      "title": "Projeto &#039;Vamos Empreender&#039; orienta segurados do SergipePrevidência sobre formação do preço de venda - SergipePrevidência",
+      "category": "Serviços & Outras Páginas",
+      "doc_count": 5,
+      "sha256": "e519438c9e7ecbc74af43fbab794c5e64d4f588c32daa9f6ed4ff32bc6bdf072"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/prova-de-vida/",
+      "rel_path": "prova-de-vida/index.html",
+      "title": "Prova de Vida - SergipePrevidência",
+      "category": "Serviços & Outras Páginas",
+      "doc_count": 6,
+      "sha256": "28f8278e2bf4f9a61fe2e4f3e1522f261fd3b1f9381369c2b2bd7c5c0b42f871"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/provadevida-2/",
+      "rel_path": "provadevida-2/index.html",
+      "title": "Prova de Vida-backup - SergipePrevidência",
+      "category": "Serviços & Outras Páginas",
+      "doc_count": 9,
+      "sha256": "edf8bd72395241ab6cfd6ee61769d75637d26f6169d75e6a4fe593a74c95031b"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/provadevida2/",
+      "rel_path": "provadevida2/index.html",
+      "title": "Prova de Vida - SergipePrevidência",
+      "category": "Serviços & Outras Páginas",
+      "doc_count": 6,
+      "sha256": "4ef7af26b4a83a803a65f4850a7e8ef18dbdff4d775cf3ba222494e5e4658f20"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/regularidadetributaria/",
+      "rel_path": "regularidadetributaria/index.html",
+      "title": "Regularidade Tributária - SergipePrevidência",
+      "category": "Serviços & Outras Páginas",
+      "doc_count": 11,
+      "sha256": "9b893577484c2ee453317ef30ac8a7b10a6c0cac10d2fa4a8f0e7a721288d50c"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/relatorios/",
+      "rel_path": "relatorios/index.html",
+      "title": "Relatórios - SergipePrevidência",
+      "category": "Serviços & Outras Páginas",
+      "doc_count": 87,
+      "sha256": "54854c94a75d74999dc0c3ff59d7710d83d7fc6d2f53522a68a9d1458b9fbf6b"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/resp-fiscal/",
+      "rel_path": "resp-fiscal/index.html",
+      "title": "Responsabilidade Fiscal - SergipePrevidência",
+      "category": "Serviços & Outras Páginas",
+      "doc_count": 5,
+      "sha256": "e68fba3624dc6569cca1980e454b06b9ea833ae70a07402d61f3dc63d09be457"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/roda-de-conversa/",
+      "rel_path": "roda-de-conversa/index.html",
+      "title": "Roda de Conversa - SergipePrevidência",
+      "category": "Serviços & Outras Páginas",
+      "doc_count": 5,
+      "sha256": "d1348aef83c8730ebb2528f128c02b3d0cacdf275071ce48364a2dec261bd316"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/segurado/",
+      "rel_path": "segurado/index.html",
+      "title": "Segurado - SergipePrevidência",
+      "category": "Serviços & Outras Páginas",
+      "doc_count": 5,
+      "sha256": "1e35e7b3001ac369177fa123924b99513c4af5e65e209af3fd4d7bbbe58c6355"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/seminario-de-instrucao-de-processo-de-aposentadoria/",
+      "rel_path": "seminario-de-instrucao-de-processo-de-aposentadoria/index.html",
+      "title": "Seminário de Instrução de Processo de Aposentadoria - SergipePrevidência",
+      "category": "Serviços & Outras Páginas",
+      "doc_count": 5,
+      "sha256": "9e2ee0ed5078b7107c4137c5fa2c3256847860ac891739cec5c97c73eaf3317e"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/sergipeprevidencia-e-destaque-na-maior-revista-nacional-de-rpps/",
+      "rel_path": "sergipeprevidencia-e-destaque-na-maior-revista-nacional-de-rpps/index.html",
+      "title": "SergipePrevidência é destaque na maior revista nacional de RPPS - SergipePrevidência",
+      "category": "Serviços & Outras Páginas",
+      "doc_count": 6,
+      "sha256": "d0cf86df70191b0b659028ee478ccb565f04f6be19dd7d0f4a2297313858cb88"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/sergipeprevidencia-e-sebrae-capacitam-aposentados-e-pensionistas-do-estado-em-planejamento-estrategico/",
+      "rel_path": "sergipeprevidencia-e-sebrae-capacitam-aposentados-e-pensionistas-do-estado-em-planejamento-estrategico/index.html",
+      "title": "SergipePrevidência e Sebrae capacitam aposentados e pensionistas do Estado em planejamento estratégico - SergipePrevidência",
+      "category": "Serviços & Outras Páginas",
+      "doc_count": 5,
+      "sha256": "089cf6eb54b8b4f2c364b6317590bf015feaefcef3c617869187d6f2a485c045"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/sergipeprevidencia-realiza-encontro-do-projeto-vamos-empreender-com-foco-na-importancia-da-marca/",
+      "rel_path": "sergipeprevidencia-realiza-encontro-do-projeto-vamos-empreender-com-foco-na-importancia-da-marca/index.html",
+      "title": "SergipePrevidência realiza encontro do Projeto Vamos Empreender com foco na importância da marca - SergipePrevidência",
+      "category": "Serviços & Outras Páginas",
+      "doc_count": 5,
+      "sha256": "fafb62617bb0b2afacccdb2feb5f03bd1d1a01d15541c78d26b77be8e45a7162"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/servicos-antigo/",
+      "rel_path": "servicos-antigo/index.html",
+      "title": "Serviços - SergipePrevidência",
+      "category": "Serviços & Outras Páginas",
+      "doc_count": 25,
+      "sha256": "d7b99d2ebf373669e1ce9faa784f6d24b6ab509b69da73e094faa48dcda64afd"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/servicos-ao-cidadao/",
+      "rel_path": "servicos-ao-cidadao/index.html",
+      "title": "Serviços ao cidadão - SergipePrevidência",
+      "category": "Serviços & Outras Páginas",
+      "doc_count": 25,
+      "sha256": "bb220e4f6562b9fc8277c3c676aad5201cc6c215778f978cd5bffe5a470f1e74"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/sic-e-sic/",
+      "rel_path": "sic-e-sic/index.html",
+      "title": "Sistema de Informações ao Cidadão - SergipePrevidência",
+      "category": "Serviços & Outras Páginas",
+      "doc_count": 17,
+      "sha256": "b2394c819ea3e540ae29b155c97a1cdd722e9c46a5964795feb51f5fffa542ae"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/spn/",
+      "rel_path": "spn/index.html",
+      "title": "Sergipe Previdência em Números - SergipePrevidência",
+      "category": "Serviços & Outras Páginas",
+      "doc_count": 80,
+      "sha256": "cbbaf5180c0316931e32d336c4cccd0d5cd4f95ff5ee207ba1c1701ac606367e"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/terapiaprev/",
+      "rel_path": "terapiaprev/index.html",
+      "title": "TerapiaPrev - SergipePrevidência",
+      "category": "Serviços & Outras Páginas",
+      "doc_count": 5,
+      "sha256": "499d4dae92b50709c9d2749d26cea30d637d493ef06637200d4f49d43dd26d7f"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/termo-de-uso-e-politica-de-privacidade/",
+      "rel_path": "termo-de-uso-e-politica-de-privacidade/index.html",
+      "title": "Termo de uso e Política de Privacidade - SergipePrevidência",
+      "category": "Serviços & Outras Páginas",
+      "doc_count": 5,
+      "sha256": "dcd8b90997a23d1e9941dec6246bcf903d779af1755c69a4ed9152044f0fee81"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/teste-iframe/",
+      "rel_path": "teste-iframe/index.html",
+      "title": "teste iframe - SergipePrevidência",
+      "category": "Serviços & Outras Páginas",
+      "doc_count": 5,
+      "sha256": "d430b2cc3ad8abb0c9bb79f8b28277eeb7d5a9a97523749e53e51c55d218ed36"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/tste/",
+      "rel_path": "tste/index.html",
+      "title": "tste - SergipePrevidência",
+      "category": "Serviços & Outras Páginas",
+      "doc_count": 5,
+      "sha256": "bfe2d751d8dba619a495022252d8c0d69ca3e513960a5e7d45ec022d66a39db3"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/um-aposentado-uma-arvore/",
+      "rel_path": "um-aposentado-uma-arvore/index.html",
+      "title": "Um aposentado, uma árvore - SergipePrevidência",
+      "category": "Serviços & Outras Páginas",
+      "doc_count": 5,
+      "sha256": "02b34915a08e30297970823decde83a0adbd049bb8ee9c6c98708ca85487c1d6"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/validacao-de-documentos/",
+      "rel_path": "validacao-de-documentos/index.html",
+      "title": "Validação de Documentos - SergipePrevidência",
+      "category": "Serviços & Outras Páginas",
+      "doc_count": 5,
+      "sha256": "f6fa34715a5fc598443111e8aa4e1683e75c598a7757870c798e371a88a4429e"
+    },
+    {
+      "url": "https://sergipeprevidencia.se.gov.br/vamos-empreender/",
+      "rel_path": "vamos-empreender/index.html",
+      "title": "Vamos Empreender - SergipePrevidência",
+      "category": "Serviços & Outras Páginas",
+      "doc_count": 5,
+      "sha256": "8df720e295b4cbee4a91d94a1f4f930b61941236b69c2a35b4eb661448a9b411"
+    }
+  ]
+}
